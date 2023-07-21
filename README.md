@@ -1,2 +1,2 @@
-# SAM-Zegformer-
-利用SAM产生图像的分割标注
+# SAM-Zegformer
+use SAM model to generate the masks of photos and then The process of selectively merging the regions corresponding to these masks is supervised by CLIP, which measures the score of the categories recognized by CLIP in the image area. The merging process refers to the selective search algorithm. Due to the effective recognition ability of CLIP for small targets, this project can ultimately generate a segmented image of the given image, including masks and corresponding categories, which can be automatically annotated for the target segmented dataset, To replace manual annotation.
