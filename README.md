@@ -3,4 +3,5 @@ use SAM model to generate the masks of photos and then The process of selectivel
 
 ![image](https://github.com/cjf-repo/SAM-Zegformer-/assets/73433395/4454d37e-141f-4cff-809f-7ab33514904a)
 
+
 On the far left is the original image, in the middle is the automatic annotation (category not marked) made for this project, and on the right is the result of manual annotation. The annotation method is different, so it looks different. The recognition results are very similar.
